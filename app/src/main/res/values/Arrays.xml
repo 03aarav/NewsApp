@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string-array name="predefined_options_country">
+            <item>in</item>
+            <item>us</item>
+            <item>ca</item>
+            <!-- Add more options as needed -->
+        </string-array>
+    <string-array name="predefined_options_category">
+        <item>general</item>
+        <item>health</item>
+        <item>science</item>
+        <item>sports</item>
+        <item>technology</item>
+        <item>business</item>
+        <!-- Add more options as needed -->
+    </string-array>
+
+
+
+</resources>

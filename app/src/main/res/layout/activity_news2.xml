@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewsActivity2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news_app"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textSize="30sp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:elevation="100dp"
+
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello i amn indiaa kclvg flopjfdslkrfnosfpdoidlkgfmfieo"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:elevation="50dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@color/black"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="My name is Aarav yadav from Kiet, pursuing a Bachelor's in Technology in CSE branch with specialiasation in Artificial intelligence and Machine Learning. I am  a passionate Android developer with a keen interest in Kotlin. I dedicated to mastering the art of Android development is commendable, and my skills have already reached an intermediate level. My determination to constantly learn and grow in this field sets me apart, making me a valuable asset to any team. With a solid foundation in Android and Kotlin, I am all set to tackle the challenges of the hackathon with creativity and expertise, contributing significantly to the success of the event. Let's watch out for the in"
+        android:textSize="20dp"/>
+</ScrollView>
+
+<TextView
+    android:id="@+id/explore"
+    android:clickable="true"
+    android:textColor="#ED0909"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Explore more"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
